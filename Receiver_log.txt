@@ -1,0 +1,71 @@
+
+       rcv		      1.98		         S		         0		         0		         0
+       snd		      1.98		        SA		         0		         0		         1
+       rcv		      1.99		         A		         1		         0		         1
+       rcv		      2.01		         D		       451		       150		         1
+    snd/DA		      2.01		         A		         1		         0		         1
+       rcv		      3.03		         D		         1		       150		         1
+       snd		      3.05		         A		         1		         0		       151
+       rcv		      3.07		         D		       601		       150		         1
+    snd/DA		      3.08		         A		         1		         0		       151
+       rcv		      6.36		         D		       151		       150		         1
+       snd		      6.37		         A		         1		         0		       301
+       rcv		       6.4		         D		       751		       150		         1
+    snd/DA		      6.41		         A		         1		         0		       301
+       rcv		      8.08		         D		       301		       150		         1
+       snd		      8.13		         A		         1		         0		       901
+       rcv		      8.15		         D		       901		       150		         1
+       snd		      8.16		         A		         1		         0		      1051
+       rcv		      8.17		         D		      1051		       150		         1
+       snd		      8.18		         A		         1		         0		      1201
+       rcv		      8.18		         D		      1201		       150		         1
+       snd		       8.2		         A		         1		         0		      1351
+       rcv		      8.21		         D		      1351		       150		         1
+       snd		      8.22		         A		         1		         0		      1501
+       rcv		      8.23		         D		      1651		       150		         1
+    snd/DA		      8.24		         A		         1		         0		      1501
+       rcv		      9.79		         D		      1501		       150		         1
+       snd		      9.81		         A		         1		         0		      1801
+       rcv		      9.82		         D		      2101		       150		         1
+    snd/DA		      9.82		         A		         1		         0		      1801
+       rcv		      9.83		         D		      2251		       150		         1
+    snd/DA		      9.84		         A		         1		         0		      1801
+       rcv		     12.71		         D		      1801		       150		         1
+       snd		     12.73		         A		         1		         0		      1951
+       rcv		     14.09		         D		      1951		       150		         1
+       snd		     14.11		         A		         1		         0		      2401
+       rcv		     14.12		         D		      2551		       150		         1
+    snd/DA		     14.13		         A		         1		         0		      2401
+       rcv		     14.14		         D		      2701		       150		         1
+    snd/DA		     14.14		         A		         1		         0		      2401
+  rcv/corr		     14.15		         D		      2851		       150		         1
+       rcv		     15.48		         D		      2401		       150		         1
+       snd		      15.5		         A		         1		         0		      2851
+       rcv		     15.52		         D		      3001		        28		         1
+    snd/DA		     15.52		         A		         1		         0		      2851
+       rcv		     17.99		         D		      2851		       150		         1
+       snd		     18.01		         A		         1		         0		      3029
+       rcv		     18.03		         F		      3029		         0		         1
+       snd		     18.03		         A		         1		         0		      3030
+       snd		     18.04		         F		         1		         0		      3030
+       rcv		     18.05		         A		      3030		         0		         2
+=============================================================
+Amount of data received (bytes))                 3028
+Total Segments Received                          26
+Data segments received                           22
+Data segments with Bit Errors                    1
+Duplicate data segments received                 4
+Duplicate ACKs sent                              9
+=============================================================
+       rcv		     77.02		         S		         0		         0		         0
+       snd		     77.03		        SA		         0		         0		         1
+       rcv		     77.03		         A		         1		         0		         1
+       rcv		     77.04		         D		       451		       150		         1
+    snd/DA		     77.04		         A		         1		         0		         1
+  rcv/corr		     78.04		         D		         1		       150		         1
+  rcv/corr		     79.05		         D		         1		       150		         1
+  rcv/corr		     81.05		         D		         1		       150		         1
+       rcv		     82.06		         D		         1		       150		         1
+       snd		     82.06		         A		         1		         0		       151
+       rcv		     82.65		         D		       151		       150		         1
+       snd		     82.66		         A		         1		         0		       301

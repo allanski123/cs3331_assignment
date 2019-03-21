@@ -1,0 +1,97 @@
+
+       snd		       0.0		         S		         0		         0		         0
+       snd		       0.0		         S		         0		         0		         0
+       rcv		      0.01		        SA		         0		         0		         1
+       snd		      0.02		         A		         1		         0		         1
+      drop		      0.02		         D		         1		       150		         1
+      drop		      0.03		         D		       301		       150		         1
+       snd		      0.03		         D		       451		       150		         1
+    rcv/DA		      0.05		         A		         1		         0		         1
+   snd/RXT		      1.05		         D		         1		       150		         1
+       rcv		      1.08		         A		         1		         0		       151
+       snd		      1.09		         D		       601		       150		         1
+    rcv/DA		      1.11		         A		         1		         0		       151
+      drop		      2.74		         D		       151		       150		         1
+   snd/RXT		      4.38		         D		       151		       150		         1
+  snd/rord		      4.39		         D		       151		       150		         1
+       rcv		      4.41		         A		         1		         0		       301
+       snd		      4.42		         D		       751		       150		         1
+    rcv/DA		      4.44		         A		         1		         0		       301
+   snd/RXT		       6.1		         D		       301		       150		         1
+       rcv		      6.16		         A		         1		         0		       901
+       snd		      6.17		         D		       901		       150		         1
+       snd		      6.18		         D		      1051		       150		         1
+       snd		      6.19		         D		      1201		       150		         1
+       snd		       6.2		         D		      1351		       150		         1
+       rcv		      6.21		         A		         1		         0		      1051
+      drop		      6.22		         D		      1501		       150		         1
+       rcv		      6.24		         A		         1		         0		      1201
+       snd		      6.24		         D		      1651		       150		         1
+       rcv		      6.25		         A		         1		         0		      1351
+       rcv		      6.26		         A		         1		         0		      1501
+      drop		      6.27		         D		      1951		       150		         1
+    rcv/DA		      6.28		         A		         1		         0		      1501
+   snd/RXT		      7.82		         D		      1501		       150		         1
+       rcv		      7.84		         A		         1		         0		      1801
+       snd		      7.84		         D		      2101		       150		         1
+       snd		      7.85		         D		      2251		       150		         1
+   snd/dup		      7.86		         D		      2251		       150		         1
+    rcv/DA		      7.86		         A		         1		         0		      1801
+    rcv/DA		      7.87		         A		         1		         0		      1801
+      drop		       9.3		         D		      1801		       150		         1
+   snd/RXT		     10.73		         D		      1801		       150		         1
+  snd/rord		     10.75		         D		      1801		       150		         1
+       rcv		     10.77		         A		         1		         0		      1951
+      drop		     10.78		         D		      2401		       150		         1
+   snd/RXT		     12.12		         D		      1951		       150		         1
+       rcv		     12.14		         A		         1		         0		      2401
+       snd		     12.15		         D		      2551		       150		         1
+       snd		     12.15		         D		      2701		       150		         1
+  snd/corr		     12.16		         D		      2851		       150		         1
+    rcv/DA		     12.17		         A		         1		         0		      2401
+    rcv/DA		     12.18		         A		         1		         0		      2401
+   snd/RXT		     13.51		         D		      2401		       150		         1
+       rcv		     13.53		         A		         1		         0		      2851
+       snd		     13.54		         D		      3001		        28		         1
+    rcv/DA		     13.56		         A		         1		         0		      2851
+      drop		     14.78		         D		      2851		       150		         1
+       snd		     16.01		         D		      2851		       150		         1
+   snd/dup		     16.02		         D		      2851		       150		         1
+       rcv		     16.04		         A		         1		         0		      3029
+       snd		     16.05		         F		      3029		         0		         1
+       rcv		     16.06		         A		         1		         0		      3030
+       rcv		     16.07		         F		         1		         0		      3030
+       snd		     16.07		         A		      3030		         0		         2
+=============================================================
+Size of the file (in Bytes)                      3028
+Segments transmitted (including drop & RXT)      38
+Number of Segments handled by PLD                34
+Number of Segments dropped                       11
+Number of Segments Corrupted                     1
+Number of Segments Re-ordered                    2
+Number of Segments Duplicated                    2
+Number of Segments Delayed                       0
+Number of Retransmissions due to TIMEOUT         11
+Number of FAST RETRANSMISION                     0
+Number of DUP ACKS RECEIVED                      9
+=============================================================
+       snd		       0.0		         S		         0		         0		         0
+       rcv		       0.0		        SA		         0		         0		         1
+       snd		       0.0		         A		         1		         0		         1
+      drop		      0.01		         D		         1		       150		         1
+      drop		      0.01		         D		       151		       150		         1
+      drop		      0.01		         D		       301		       150		         1
+       snd		      0.01		         D		       451		       150		         1
+   snd/dup		      0.01		         D		       451		       150		         1
+    rcv/DA		      0.02		         A		         1		         0		         1
+  snd/corr		      1.02		         D		         1		       150		         1
+  snd/corr		      2.03		         D		         1		       150		         1
+      drop		      3.03		         D		         1		       150		         1
+  snd/corr		      4.03		         D		         1		       150		         1
+       snd		      5.04		         D		         1		       150		         1
+   snd/dup		      5.04		         D		         1		       150		         1
+       rcv		      5.04		         A		         1		         0		       151
+       snd		      5.63		         D		       151		       150		         1
+   snd/dup		      5.63		         D		       151		       150		         1
+  snd/rord		      5.63		         D		       601		       150		         1
+       rcv		      5.64		         A		         1		         0		       301
